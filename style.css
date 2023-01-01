@@ -40,3 +40,51 @@
 .navbar-toggler {
   outline: none !important;
 }
+
+#banner {
+  background: linear-gradient(
+    90deg,
+    hsla(241, 52%, 27%, 1) 0%,
+    hsla(205, 65%, 87%, 1) 100%
+  );
+}
+
+.promo-title {
+  color: #f5faff;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.promo-text {
+  color: #f5faff;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 6px;
+}
+.fa-brands {
+  color: #f5faff;
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.link {
+  color: #f5faff;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #f5faff;
+}
+
+.work-img {
+  margin-top: 90px;
+}
+
+.bottom-img {
+  width: 100%;
+}
