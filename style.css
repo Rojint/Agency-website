@@ -13,11 +13,9 @@
 }
 
 .navbar {
-  background: linear-gradient(
-    90deg,
-    hsla(241, 52%, 27%, 1) 0%,
-    hsla(205, 65%, 87%, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      hsla(241, 52%, 27%, 1) 0%,
+      hsla(205, 65%, 87%, 1) 100%);
   padding: 0% !important;
 }
 
@@ -42,11 +40,9 @@
 }
 
 #banner {
-  background: linear-gradient(
-    90deg,
-    hsla(241, 52%, 27%, 1) 0%,
-    hsla(205, 65%, 87%, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      hsla(241, 52%, 27%, 1) 0%,
+      hsla(205, 65%, 87%, 1) 100%);
 }
 
 .promo-title {
@@ -62,6 +58,7 @@
   font-weight: 400;
   margin-top: 6px;
 }
+
 .fa-brands {
   color: #f5faff;
   font-size: 25px;
@@ -118,6 +115,7 @@
   margin-bottom: 70px;
   color: #1b1b1e;
 }
+
 .ser-title::before {
   content: "";
   background-color: #7c4b99;
@@ -215,15 +213,51 @@
 }
 
 #footer {
-  background-image: linear-gradient(
-    90deg,
-    hsla(241, 52%, 27%, 1) 0%,
-    hsla(205, 65%, 87%, 1) 100%
-  );
+  background-image: linear-gradient(90deg,
+      hsla(241, 52%, 27%, 1) 0%,
+      hsla(205, 65%, 87%, 1) 100%);
 
   color: #fff;
 }
 
 .footer-img {
   width: 100%;
+}
+
+.footer-box {
+  padding: 20px;
+}
+
+.fa-solid {
+  margin-right: 8px;
+  font-size: 25px;
+  padding-top: 7px;
+}
+
+.subscribe {
+  color: #222169;
+  font-weight: 900;
+}
+
+#btn-sub {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1b1b1e;
+
+  border: 1px solid #9493b8;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+}
+
+#subbtn {
+  background-color: #222169;
+  border: 1px solid #9493b8;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#subbtn:hover {
+  background-color: #f5faff;
+  color: #222169;
+  font-weight: 900;
+  transition: 0.5s ease-in;
 }
